@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import cls from './Header.module.scss'
-import logoDesktop from '@/public/logo.svg';
+import logoDesktop from '@/public/fixedHeaderLogoo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { classNames } from '@/components/lib/classNames/classNames';

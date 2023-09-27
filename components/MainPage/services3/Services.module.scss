@@ -8,9 +8,7 @@
 }
 
 .Service:nth-child(even) {
-
     flex-direction: row-reverse;
-
 }
 
 .Service {
@@ -41,8 +39,8 @@
     }
 
     p {
-        width: 286px;
-        font-size: 18px;
+        width: 19.324vw;
+        font-size: 1.216vw;
         color: var(--grey-main, #353539);
         font-weight: 400;
         line-height: 140%;

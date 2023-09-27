@@ -34,7 +34,7 @@
     grid-area: component2;
     display: grid;
     grid-template-columns: repeat(3,18.986vw);
-    grid-template-rows: 281px;
+    grid-template-rows: 33.7334vh;
     justify-content: end;
 }
 .clientsImages2 {
@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: repeat(4,18.986vw);
     justify-content: end;
-    grid-template-rows: 281px;
+    grid-template-rows: 33.7334vh;
     .Company {
         border-top: 1px solid #E2E2E2;
     }
@@ -58,4 +58,8 @@
     border-right: 1px solid #E2E2E2;
     border-left: 1px solid #E2E2E2;
     background: #FAFAFA;
+    img {
+        width: 12.136vw;
+        height: 3.841vh;
+    }
 }
