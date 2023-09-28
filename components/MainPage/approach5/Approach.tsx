@@ -17,6 +17,11 @@ export const Approach: FC<ApproachProps> = ({ }) => {
             <h1 className={cls.ApproachHeader}>
                 Our approach stands on:
             </h1>
+            <div className={cls.Line1}></div>
+            <div className={cls.Line2}></div>
+            <div className={cls.Line3}></div>
+            <div className={cls.Line4}></div>
+            <div className={cls.Line5}></div>
             <div className={`${cls.Evaluation} ${cls.Evaluation1}`}>
                 <Image 
                 src={Transparent}
