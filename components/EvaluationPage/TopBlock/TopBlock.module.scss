@@ -39,7 +39,7 @@
 
     .Header {
         color: #FFF;
-        font-size: 6.243vw;
+        font-size: 92.394px;
         font-style: normal;
         font-weight: 500;
         line-height: 100%;
@@ -47,7 +47,7 @@
 
     .Text {
         color: #FFF;
-        width: 19.932vw;
+        width: 18.919vw;
         font-size: 1.351vw;
         font-style: normal;
         font-weight: 400;
@@ -85,7 +85,7 @@
 }
 
 .TopBlockGuide {
-    color: #77F8A2;
+    color: #BF63DF;
 }
 
 .TopBlockText {
@@ -122,13 +122,16 @@
     padding: 1.622vw 2.162vw;
     height: 1.081vw;
     border-radius: 0.861vw;
-    border: 1px solid #2DAED7;
-    background: rgba(45, 174, 215, 0.10);
+    border: 1px solid #BF63DF;
+    background: rgba(52, 200, 140, 0.10);
     backdrop-filter: blur(25px);
-    color: #2DAED7;
+    color: #BF63DF;
     font-size: 1.549vw;
     gap: 0.861vw;
     font-weight: 500;
+    svg {
+        stroke: #BF63DF;
+    }
 }
 
 .TopBlockFooter {
