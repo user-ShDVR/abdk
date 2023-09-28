@@ -1,7 +1,7 @@
 .Approach {
     width: 100vw;
     box-sizing: border-box;
-    padding: 11.486vw 8.649vw;
+    padding: 11.486vw 8.649vw 0;
     display: grid;
     grid-template-columns: 18.986vw 2.162vw 18.986vw 2.162vw 18.986vw 2.162vw 18.986vw;
     grid-template-rows: 18.986vw 2.162vw 18.986vw;
@@ -10,6 +10,7 @@
 .ApproachHeader {
     width: 47.095vw;
     font-size: 5.849vw;
+    margin-top: -100px;
     font-weight: 700;
     line-height: 98.473px;
     text-transform: uppercase;

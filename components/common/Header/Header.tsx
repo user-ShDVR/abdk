@@ -34,9 +34,9 @@ const Header = React.memo(() => {
                     loading="lazy"
                 />
                 <div className={cls.headerLinks}>
-                    <Link className={cls.link} href={'a'}>Home</Link>
-                    <Link className={cls.link} href={'a'}>About us</Link>
-                    <Link className={cls.link} href={'a'}>Contact</Link>
+                    <Link className={cls.link} href={'/'}>Home</Link>
+                    <Link className={cls.link} href={'/aboutUs'}>About us</Link>
+                    <Link className={cls.link} href={'/contact'}>Contact</Link>
                 </div>
             </div>
         </div>

@@ -16,6 +16,7 @@ export const ChooseAudit: FC<ChooseProps> = ({ }) => {
     return (
         <div className={cls.Approach}>
             <h1 className={cls.ApproachHeader}>
+                Why <br />
                 Choose <br />
                 abdk
             </h1>
