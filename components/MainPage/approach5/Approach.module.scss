@@ -1,0 +1,53 @@
+.Approach {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 11.486vw 8.649vw;
+    display: grid;
+    grid-template-columns: 281px 32px 281px 32px 281px 32px 281px;
+    grid-template-rows: 281px 32px 281px;
+}
+
+.ApproachHeader {
+    width: 47.095vw;
+    font-size: 5.849vw;
+    font-weight: 700;
+    line-height: 7.059vw;
+    text-transform: uppercase;
+    color: var(--grey-main, #353539);
+}
+
+.Evaluation {
+    box-sizing: border-box;
+    display: flex;
+    width: 18.986vw;
+    height: 18.986vw;
+    padding: 1.622vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 0.676vw;
+    border: 0.068vw solid #E2E2E2;
+    background: #FFF;
+
+    .EvaluationText {
+        width: 190px;
+        color: var(--grey-main, #353539);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.Evaluation1 {
+    grid-row: 1/2;
+    grid-column: 7/8;
+}
+.Evaluation2 {
+    grid-row: 3/4;
+    grid-column: 7/8;
+}
+.Evaluation3 {
+    grid-row: 3/4;
+    grid-column: 7/8;
+}

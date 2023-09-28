@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import cls from './CheckOut.module.scss'
 import github from '@/public/github.svg';
+import githubPage from '@/public/github.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -22,6 +23,12 @@ export const CheckOut: FC<CheckOutProps> = ({ }) => {
                     <Link className={cls.PortfolioButton} href={'a'} >Check Out</Link>
                 </div>
             </div>
+            <Image 
+            className={cls.GhPage}
+            src={githubPage}
+            alt='GhPage'
+            loading='lazy'
+            />
         </div>
     )
 }
