@@ -25,23 +25,23 @@ const Footer = () => {
                 </div>
                 <div className={cls.FooterRight}>
                     <div className={cls.links}>
-                        <Link className={cls.link} href={'a'} >Home</Link>
-                        <Link className={cls.link} href={'a'} >About us</Link>
-                        <Link className={cls.link} href={'a'} >Contact</Link>
+                        <Link className={cls.link} href={'/'} >Home</Link>
+                        <Link className={cls.link} href={'/about-us'} >About us</Link>
+                        <Link className={cls.link} href={'/contact'} >Contact</Link>
                     </div>
                     <div className={cls.links}>
-                        <Link className={cls.link} href={'a'} >Audit</Link>
-                        <Link className={cls.link} href={'a'} >Research</Link>
-                        <Link className={cls.link} href={'a'} >Consulting</Link>
-                        <Link className={cls.link} href={'a'} >Evaluation</Link>
+                        <Link className={cls.link} href={'/audit'} >Audit</Link>
+                        <Link className={cls.link} href={'/research'} >Research</Link>
+                        <Link className={cls.link} href={'/consulting'} >Consulting</Link>
+                        <Link className={cls.link} href={'/evaluation'} >Evaluation</Link>
                     </div>
                     <div className={cls.links}>
-                        <Link className={cls.link} href={'a'} >
+                        <a className={cls.link} href="mailto:dmitry@abdkconsulting.com" >
                             Email
                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
                                 <path d="M0.5625 8.9375L8 1.5M8 1.5H-2.98023e-08M8 1.5V9.5" stroke="#353539" strokeWidth="1.5" strokeLinejoin="bevel" />
                             </svg>
-                        </Link>
+                        </a>
                         <Link className={cls.link} href={'a'} >
                             X
                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">

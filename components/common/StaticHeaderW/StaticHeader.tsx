@@ -1,32 +1,14 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import cls from './Header.module.scss'
+import cls from './StaticHeader.module.scss'
 import logoDesktop from '@/public/fixedHeaderLogoo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
-import { classNames } from '@/components/lib/classNames/classNames';
 
-const Header = React.memo(() => {
-    const [isHeaderFixed, setIsHeaderFixed] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 800) {
-                setIsHeaderFixed(true);
-            } else {
-                setIsHeaderFixed(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+const StaticHeader = React.memo(() => {
 
     return (
-
-        <div className={classNames(cls.headerFixed, { [cls.visible]: isHeaderFixed }, [])}>
+        <div className={cls.headerStatic}>
             <div className={cls.headerContent}>
                 <Image
                     src={logoDesktop}
@@ -42,6 +24,7 @@ const Header = React.memo(() => {
         </div>
     );
 
+
 });
-Header.displayName = 'Header';
-export default Header;
+StaticHeader.displayName = 'StaticHeader';
+export default StaticHeader;

@@ -1,6 +1,9 @@
 import { FC } from 'react'
 import cls from './TopBlock.module.scss'
 import BgVideo from '@/components/common/Video/BgVideo'
+import GuideMark from '@/public/GuideMark.svg';
+import Image from 'next/image';
+import Link from 'next/link'
 
 interface TopBlockProps {
 }
@@ -10,19 +13,27 @@ export const TopBlock: FC<TopBlockProps> = ({ }) => {
         <div className={cls.TopBlock}>
             <BgVideo />
             <div className={cls.TopBlockHeader}>
-                Your <span className={cls.TopBlockGuide}>Guide </span> 
+                
+                Your <span className={cls.TopBlockGuide}>
+                <Image
+                    className={cls.GuideBgImage}
+                    src={GuideMark}
+                    alt={'ClientsMark'}
+                    loading="lazy"
+                />
+                    Guide </span> 
                 in the World
                 of Crypto
             </div>
             <div className={cls.TopBlockFooter}>
             <div className={cls.TopBlockText}>
-                <p className={cls.text}>Audit</p>
-                <div className={cls.line}></div>
-                <p className={cls.text}>Consulting</p>
-                <div className={cls.line}></div>
-                <p className={cls.text}>Research</p>
-                <div className={cls.line}></div>
-                <p className={cls.text}>Evaluation</p>
+                    <Link href={'/audit'} className={cls.text}>Audit</Link>
+                    <div className={cls.line}></div>
+                    <Link href={'/consulting'} className={cls.text}>Consulting</Link>
+                    <div className={cls.line}></div>
+                    <Link href={'/research'} className={cls.text}>Research</Link>
+                    <div className={cls.line}></div>
+                    <Link href={'/evaluation'} className={cls.text}>Evaluation</Link>
             </div>
             <div className={cls.TopBlockButton}>
                 Contact Us 

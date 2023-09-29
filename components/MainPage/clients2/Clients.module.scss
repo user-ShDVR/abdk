@@ -7,6 +7,14 @@
     "component1 component2"
     "component3 component3";
     justify-items: end;
+    position: relative;
+}
+.clientsBgImage{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 21.014vw;
+    height: 29.527vw;
 }
 .ClientsText {
     grid-area: component1;
@@ -28,6 +36,8 @@
         font-size: 1.216vw;
         width: 25.676vw;
         font-weight: 400;
+        line-height: 140%; 
+        opacity: 0.9;
     }
 }
 .clientsImages {

@@ -1,7 +1,7 @@
 .Approach {
     width: 100vw;
     box-sizing: border-box;
-    padding: 11.486vw 8.649vw 0;
+    padding: 6.757vw 8.649vw;
     display: grid;
     grid-template-columns: 18.986vw 2.162vw 18.986vw 2.162vw 18.986vw 2.162vw 18.986vw;
     grid-template-rows: 33.733vh 3.841vh 33.733vh;
@@ -10,10 +10,11 @@
 .ApproachHeader {
     width: 47.095vw;
     font-size: 5.849vw;
-    transform: translateY(-4.73vw);
     font-weight: 700;
+    line-height: 98.473px;
     text-transform: uppercase;
     color: var(--grey-main, #353539);
+    align-self: center;
 }
 
 .Evaluation {
@@ -51,14 +52,14 @@
     grid-row: 3/4;
     grid-column: 7/8;
     .EvaluationText { 
-        width: 15.338vw;
+        width: 234.002px;
     }
 }
 .Evaluation3 {
     grid-row: 3/4;
     grid-column: 5/7;
     .EvaluationText { 
-        width: 13.851vw;
+        width: 13.108vw;
     }
 }
 .Evaluation4 {
@@ -76,25 +77,16 @@
     }
 }
 .Line1 {
-    width: 44.39vw;
-    height: 0px;
+    width: 84px;
+    height: 14.7659vh;
     border-top: 0.135vw dashed #0A0A29;
+    border-right: 0.135vw dashed #0A0A29;
+    border-radius: 0 10px 10px 0;
     opacity: 0.3;
     grid-row: 1/2;
-    grid-column: 2/5;
-    align-self: center;
-    justify-self: start;
-}
-.Line2 {
-    width: 0px;
-    height: 3.041vw;
-    border-right: 0.135vw dashed #0A0A29;
-    opacity: 0.3;
-    align-self: center;
-    justify-self: center;
-    grid-row: 2/3;
-    grid-column: 7/8;
-    z-index: 0;
+    grid-column: 3/5;
+    justify-self: end;
+    transform: translate(16px, 16.4466vh);
 }
 .Line3 {
     width: 3.041vw;
@@ -107,25 +99,18 @@
     grid-column: 6/7;
     z-index: 0;
 }
-.Line4 {
-    width: 3.041vw;
-    height: 0px;
-    border-top: 0.135vw dashed #0A0A29;
-    opacity: 0.3;
-    align-self: center;
-    justify-self: center;
-    grid-row: 3/4;
-    grid-column: 4/5;
-    z-index: 0;
-}
 .Line5 {
-    width: 3.041vw;
-    height: 0px;
+    width: 472.5px;
+    height: 22.8091vh;
     border-top: 0.135vw dashed #0A0A29;
+    border-bottom: 0.135vw dashed #0A0A29;
+    border-left: 0.135vw dashed #0A0A29;
     opacity: 0.3;
-    align-self: center;
-    justify-self: center;
-    grid-row: 3/4;
-    grid-column: 2/3;
+    /* align-self: center; */
+    justify-self: end;
+    grid-row: 2/4;
+    grid-column: 1/5;
+    transform: translate(9px,-1.351vw);
     z-index: 0;
+    border-radius: 10px 0 0 10px;
 }

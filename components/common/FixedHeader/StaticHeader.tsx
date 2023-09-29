@@ -17,7 +17,7 @@ const StaticHeader = React.memo(() => {
                 />
                 <div className={cls.headerLinks}>
                     <Link className={cls.link} href={'/'}>Home</Link>
-                    <Link className={cls.link} href={'/aboutUs'}>About us</Link>
+                    <Link className={cls.link} href={'/about-us'}>About us</Link>
                     <Link className={cls.link} href={'/contact'}>Contact</Link>
                 </div>
             </div>

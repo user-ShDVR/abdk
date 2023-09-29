@@ -7,13 +7,15 @@
     padding: 2px 2.027vw;
     margin: 0 6.757vw;
     border-radius: 13px;
+    border: 1px solid rgba(246, 246, 246, 0.30);
+background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(30px);
 
     .headerLinks {
         display: flex;
         gap: 1.622vw;
         .link {
-            color: #FFF;
+            color: #000;
             font-family: Basis Grotesque Pro;
             font-size: 0.946vw;
             font-style: normal;

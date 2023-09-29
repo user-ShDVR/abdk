@@ -7,6 +7,7 @@ import zklink from '@/public/zk-link.svg';
 import yieldProtocol from '@/public/YieldProtocol.svg';
 import notional from '@/public/notional.svg';
 import maverick from '@/public/maverick.svg';
+import ClientsMark from '@/public/clientsMark.svg';
 import Image from 'next/image';
 
 interface ClientsProps {
@@ -15,6 +16,12 @@ interface ClientsProps {
 export const Clients: FC<ClientsProps> = ({ }) => {
     return (
         <div className={cls.Clients}>
+                <Image
+                    className={cls.clientsBgImage}
+                    src={ClientsMark}
+                    alt={'ClientsMark'}
+                    loading="lazy"
+                />
             <div className={cls.ClientsText}>
                 <h1>Clients</h1>
                 <p>

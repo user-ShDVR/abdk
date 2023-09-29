@@ -17,6 +17,14 @@
 }
 .TopBlockGuide {
     color: #77F8A2;
+    position: relative;
+    .GuideBgImage {
+        position: absolute;
+        right: -20px;
+        top: 15px;
+        width: 1.755vw;
+        height: 1.755vw;
+    }
 }
 .TopBlockText {
     display: flex;
@@ -28,6 +36,8 @@
         padding: 0.859vw 1.145vw;
         font-size: 1.002vw;
         font-weight: 700;
+        text-decoration: none;
+        color: #FFF;
     }
     .line {
         width: 2.027vw;
