@@ -35,12 +35,12 @@ export const TopBlock: FC<TopBlockProps> = ({ }) => {
                     <div className={cls.line}></div>
                     <Link href={'/evaluation'} className={cls.text}>Evaluation</Link>
             </div>
-            <div className={cls.TopBlockButton}>
+            <Link href={'/contact'} className={cls.TopBlockButton}>
                 Contact Us 
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                     <path d="M1.57191 15.7969L15.7821 1.58667M15.7821 1.58667H0.497189M15.7821 1.58667V16.8716" stroke="white" strokeWidth="2.29274" strokeLinejoin="bevel"/>
                 </svg>
-            </div>
+            </Link>
             </div>
 
         </div>
