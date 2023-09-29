@@ -3,6 +3,7 @@ import cls from './TopBlock.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
 import Consulting from '@/public/Consulting.webp';
+import React from 'react';
 
 interface TopBlockProps {
 }
@@ -42,9 +43,9 @@ export const TopBlockConsulting: FC<TopBlockProps> = ({ }) => {
                 <div className={cls.TopBlockText}>
                     <Link href={'/audit'} className={cls.text}>Audit</Link>
                     <div className={cls.line}></div>
-                    <Link href={'/consulting'} className={cls.text}>Consulting</Link>
-                    <div className={cls.line}></div>
                     <Link href={'/research'} className={cls.text}>Research</Link>
+                    <div className={cls.line}></div>
+                    <Link href={'/consulting'} className={cls.text}>Consulting</Link>
                     <div className={cls.line}></div>
                     <Link href={'/evaluation'} className={cls.text}>Evaluation</Link>
                 </div>

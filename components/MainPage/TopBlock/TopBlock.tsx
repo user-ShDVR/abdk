@@ -1,9 +1,8 @@
 import { FC } from 'react'
 import cls from './TopBlock.module.scss'
-import BgVideo from '@/components/common/Video/BgVideo'
 import GuideMark from '@/public/GuideMark.svg';
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
 
 interface TopBlockProps {
 }
@@ -11,7 +10,12 @@ interface TopBlockProps {
 export const TopBlock: FC<TopBlockProps> = ({ }) => {
     return (
         <div className={cls.TopBlock}>
-            <BgVideo />
+            <div className={'videoWrapper'}>
+                <video className={ 'bgVideo' } autoPlay muted playsInline loop>
+                    <source src='/BgVideo.webm' type="video/mp4"/>
+                    <source src='/BgVideo.webm' type="video/webm"/>
+                </video>
+            </div>
             <div className={cls.TopBlockHeader}>
                 
                 Your <span className={cls.TopBlockGuide}>
@@ -29,9 +33,9 @@ export const TopBlock: FC<TopBlockProps> = ({ }) => {
             <div className={cls.TopBlockText}>
                     <Link href={'/audit'} className={cls.text}>Audit</Link>
                     <div className={cls.line}></div>
-                    <Link href={'/consulting'} className={cls.text}>Consulting</Link>
-                    <div className={cls.line}></div>
                     <Link href={'/research'} className={cls.text}>Research</Link>
+                    <div className={cls.line}></div>
+                    <Link href={'/consulting'} className={cls.text}>Consulting</Link>
                     <div className={cls.line}></div>
                     <Link href={'/evaluation'} className={cls.text}>Evaluation</Link>
             </div>

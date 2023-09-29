@@ -2,10 +2,10 @@ import { FC } from 'react'
 import cls from './Services.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
-import Audit from '@/public/Audit.png';
-import Consulting from '@/public/consulting.png';
-import Evaluation from '@/public/evaluation.png';
-import Research from '@/public/research.png';
+import Audit from '@/public/audit-small.webp';
+import Consulting from '@/public/consulting-small.webp';
+import Evaluation from '@/public/evaluation-small.webp';
+import Research from '@/public/research-small.webp';
 
 interface ServicesProps {
 }
@@ -28,7 +28,7 @@ export const Services: FC<ServicesProps> = ({ }) => {
                         </p>
                         <Link
                             className={cls.ServiceButton}
-                            href={'a'}
+                            href={'audit'}
                         >
                             View More
                             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
@@ -59,7 +59,7 @@ export const Services: FC<ServicesProps> = ({ }) => {
                         </p>
                         <Link
                             className={cls.ServiceButton}
-                            href={'a'}
+                            href={'research'}
                         >
                             View More
                             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
@@ -89,7 +89,7 @@ export const Services: FC<ServicesProps> = ({ }) => {
                         </p>
                         <Link
                             className={cls.ServiceButton}
-                            href={'a'}
+                            href={'consulting'}
                         >
                             View More
                             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
@@ -120,7 +120,7 @@ export const Services: FC<ServicesProps> = ({ }) => {
                         </p>
                         <Link
                             className={cls.ServiceButton}
-                            href={'a'}
+                            href={'evaluation'}
                         >
                             View More
                             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">

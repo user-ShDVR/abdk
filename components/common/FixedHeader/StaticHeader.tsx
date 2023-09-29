@@ -10,11 +10,13 @@ const StaticHeader = React.memo(() => {
     return (
         <div className={cls.headerStatic}>
             <div className={cls.headerContent}>
-                <Image
-                    src={logoDesktop}
-                    alt={'ADKB'}
-                    loading="lazy"
-                />
+                <a href={'/'}>
+                    <Image
+                        src={logoDesktop}
+                        alt={'ADKB'}
+                        loading="lazy"
+                    />
+                </a>
                 <div className={cls.headerLinks}>
                     <Link className={cls.link} href={'/'}>Home</Link>
                     <Link className={cls.link} href={'/about-us'}>About us</Link>

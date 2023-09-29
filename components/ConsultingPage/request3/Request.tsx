@@ -1,6 +1,8 @@
 import { FC } from 'react'
-import cls from './Request.module.scss'
 import Link from 'next/link'
+import React from 'react'
+import cls from './Request.module.scss'
+
 
 
 interface RequestProps {

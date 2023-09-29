@@ -28,11 +28,13 @@ const Header = React.memo(() => {
 
         <div className={classNames(cls.headerFixed, { [cls.visible]: isHeaderFixed }, [])}>
             <div className={cls.headerContent}>
-                <Image
-                    src={logoDesktop}
-                    alt={'ADKB'}
-                    loading="lazy"
-                />
+                <a href={'/'}>
+                    <Image
+                        src={logoDesktop}
+                        alt={'ADKB'}
+                        loading="lazy"
+                    />
+                </a>
                 <div className={cls.headerLinks}>
                     <Link className={cls.link} href={'/'}>Home</Link>
                     <Link className={cls.link} href={'/about-us'}>About us</Link>
